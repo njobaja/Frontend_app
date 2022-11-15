@@ -1,0 +1,43 @@
+{
+    "name": "notcool",
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview --port 5050",
+        "typecheck": "vue-tsc --noEmit",
+        "docker": "docker run -p 8080:8080 -it frontend:latest",
+        "build:docker": "docker build -t frontend:latest ."
+    },
+    "dependencies": {
+        "@dreamonkey/vue-signalr": "^1.0.1",
+        "@fortawesome/fontawesome-svg-core": "^6.1.1",
+        "@fortawesome/free-solid-svg-icons": "^6.1.1",
+        "@fortawesome/vue-fontawesome": "^3.0.0-5",
+        "@kyvg/vue3-notification": "^2.3.4",
+        "@microsoft/signalr": "^5.0.0",
+        "@vuepic/vue-datepicker": "^3.1.0",
+        "apexcharts": "^3.35.3",
+        "axios": "^0.26.1",
+        "bootstrap": "^5.1.3",
+        "bootstrap-vue": "^2.22.0",
+        "chart.js": "^3.7.1",
+        "jose": "^4.8.1",
+        "leaflet": "^1.8.0",
+        "vue": "^3.2.31",
+        "vue-apexcharts": "^1.6.2",
+        "vue-chart-3": "^3.1.8",
+        "vue-chartjs": "^4.1.1",
+        "vue-mq": "^1.0.1",
+        "vue-router": "^4.0.14",
+        "vuex": "^4.0.2"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^2.3.1",
+        "@vue-leaflet/vue-leaflet": "^0.6.1",
+        "@vue/tsconfig": "^0.1.3",
+        "typescript": "~4.6.3",
+        "vite": "^2.9.13",
+        "vue-tsc": "^0.33.9"
+    }
+}
